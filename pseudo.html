@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            a:link{ /*link가 걸려있는거는 검은색으로 표시된다.*/
+                color: black;
+            }
+
+            a:visited{/*클릭했던거는 red로 변한다., 이거는 일부 태그 밖의 못쓴다.*/
+                color: red;
+            }
+
+            a:hover{ /*마우스를 올렸을때 노란색으로 변한다.*/
+                color: yellow;
+            }
+           
+            a:active{ /*마우스로 밑의 있는 방문함 누르고 있으면 녹색으로 변한다.*/
+                color: green;
+            }
+
+            a:focus{/*마우스를 대고 tab키를 누르면 선택이 된다. 그리고 enter를 누르면 접속이된다.   === 그리고 이거는 가장 마지막에 두는게 좋다.*/
+                color: white;
+            }
+          
+            input:focus{
+                background-color: black;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <a href="https://opentutorials.org">방문함</a>
+        <a href="https://a.a">방문안함</a>
+        <input type="text">
+    </body>
+</html>
+
